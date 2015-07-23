@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerControl : MonoBehaviour {
+public class PlayerStageControl : MonoBehaviour {
 
 	public Material ltMat;
 	public Material dkMat;
