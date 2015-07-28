@@ -12,7 +12,9 @@ public class SeatCount : MonoBehaviour {
 		free = cam.GetComponent<GameLogic>().freeSeat;
 		atDoor = cam.GetComponent<GameLogic>().atDoor;
 		GetComponent<Text>().text = "Free Seat Remaining : " + free.ToString() 
-			+ "\nPeople In Front Of The Doors : " + atDoor.ToString(); 
+			+ "\nPeople In Front Of The Doors : " + atDoor.ToString()
+			+ "\nLeft mouse to push people"
+			+ "\nRight mouse to draw people!"; 
 	}
 
 

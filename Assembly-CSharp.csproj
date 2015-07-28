@@ -46,12 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AtDoorScript.cs" />
-     <Compile Include="Assets\GameLogic.cs" />
-     <Compile Include="Assets\SeatCount.cs" />
-     <Compile Include="Assets\SeatScript.cs" />
+     <Compile Include="Assets\scripts\AtDoorScript.cs" />
+     <Compile Include="Assets\scripts\GameLogic.cs" />
      <Compile Include="Assets\scripts\PlayerControl.cs" />
      <Compile Include="Assets\scripts\PlayerStageControl.cs" />
+     <Compile Include="Assets\scripts\SeatCount.cs" />
+     <Compile Include="Assets\scripts\SeatScript.cs" />
+     <Compile Include="Assets\scripts\mouseLook.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity5/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
